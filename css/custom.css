@@ -30,6 +30,13 @@
 
 }
 
+.title_overlay {
+    position:relative;
+    z-index:1000;
+    font-size:16px;
+    font-weight:600;
+    top:-5px;left:65px;color:#fbfbfb;
+}
 .kipdesc {
     font-size: 22px;
     line-height: 28px;
@@ -45,11 +52,23 @@
 
 
 
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 770px) {
     .bannerImg {
         background-size: 100% !important;
     }
-
+    .title_overlay {
+        font-size:12px;
+        top:0px;
+        left:60px;
+    }
+    .center-logo {
+        top:20%;
+        left:-10px;
+    }
+    header a.logo img {
+        min-height:50px;
+        margin-top:-5px;
+    }
     .centered {
         display: none;
     }
