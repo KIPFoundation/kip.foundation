@@ -2270,7 +2270,7 @@ header.sticky nav.header-light-transparent .logo .logo-light, header.sticky nav.
 .nav-top-scroll {position: absolute; top: 0; z-index: 5;}
 header.sticky nav.nav-top-scroll {background-color: inherit;}
 header a.logo {display: inline-block; vertical-align: middle;}
-header a.logo img {max-height:26px;}
+header a.logo img {max-height:80px;margin-top:-20px;}
 header .left-nav .sidebar-part1 a.logo img {max-height:inherit;}
 .logo-holder img {max-height: 26px;}
 
@@ -2532,7 +2532,7 @@ header nav.nav-box-width {padding: 0 50px;}
 .big-menu-close {background: #fff; position: absolute; right: 0; width: 40px; height: 40px; color: #232323; }
 
 /* dropdown menu */
-nav.navbar.navbar-default ul.nav > li > a {padding:26px 0; background: transparent; border-color: transparent; font-weight: 600}
+nav.navbar.navbar-default ul.nav > li > a {padding:26px 0; background: transparent; border-color: transparent; font-weight: 800}
 nav.navbar.navbar-default ul.nav > li.dropdown > a.dropdown-toggle::after, nav.navbar.sidebar-nav ul.nav > li.dropdown > a.dropdown-toggle::after {content: ""; vertical-align: middle; position: relative; top: -1px; margin-top: 0; }
 nav.navbar.navbar-default ul li.dropdown ul.dropdown-menu > li:last-child {border-bottom: 0; border-bottom: 0;}
 nav.navbar.navbar-default ul li.dropdown .dropdown-menu li > a:hover  {color: #fff; background:  transparent; left: 5px; }
